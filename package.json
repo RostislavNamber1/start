@@ -1,0 +1,38 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "Описание проекта",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RostislavNamber1/start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RostislavNamber1/start/issues"
+  },
+  "homepage": "https://github.com/RostislavNamber1/start#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-webp": "^4.0.1"
+  },
+  "dependencies": {
+    "gulp-avif": "^1.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-webp-html": "^1.0.2"
+  }
+}
