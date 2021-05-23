@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* резет команды */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* сокращенный сброс настроек кнопок во всех браузерах */
+body {
+  /* плавный скрол */
+  scroll-behavior: smooth;
+}

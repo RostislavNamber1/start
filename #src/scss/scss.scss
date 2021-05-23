@@ -1,12 +1,29 @@
-body{
-  display: flex;
-  background-color: rgb(99, 84, 235);
+@import "base/reset";
 
-}
-h1{
-  font-size: 50px;
-  @media (max-width: 500px){
-    font-size: 20px;
-  }
-}
-@import "header";
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/functions";
+@import "utils/helpers";
+
+@import "base/typography";
+
+@import "component/buttons";
+@import "component/carousel";
+@import "component/cover";
+@import "component/dropdown";
+
+@import "layout/footer";
+@import "layout/forms";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/sidebar";
+
+@import "pages/contact";
+@import "pages/home";
+
+@import "themes/admin";
+@import "themes/theme";
+
+@import "vendors/bootstrap";
+@import "vendors/jquery-ui";
